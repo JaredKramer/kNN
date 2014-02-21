@@ -10,12 +10,8 @@ The classifier works by calculating the distances between a given test instance 
 
 As noted above, the training and testing data must be formatted as in the accompanying examples, though changing the code to fit other data formats would be trivial in most cases.
 
-This code classifies 900 test instances in approximately 2 minutes with the below accuracies. The running time is all testing and the training step for kNN is non-existant.
+This code classifies 900 test instances in approximately 2 minutes with accuracies in the 60-70 range depending on metric and k-value. The running time is all testing and the training step for kNN is non-existant.
 
-k	  euclidean cosine
-1	  0.636		  0.72
-5	  0.646		  0.703
-10	0.66		  0.663
 
 
 Usage: The command line arguments are as follows: 

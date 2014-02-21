@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 kNN Text Classifier
-Jared Kramer
+Jared Kramer & TJ Trimble
 
 This script takes training and test files (formatted as fond in the accompanying samples),
 a k-val that specifies the desired number of neighbors, a similarity value that specifies
